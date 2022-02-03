@@ -1,0 +1,116 @@
+.App {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.appInfo {
+    margin-bottom: 40px;
+}
+
+.sandwichPic {
+    display: block;
+    margin: 50px auto;
+    width: 40vw;
+    min-width: 250px;
+    max-width: 500px;
+}
+
+.sandwichTypePic {
+    width: 29vw;
+    max-width: 300px;
+}
+
+.button {
+    border-radius: 4px;
+    font-size: large;
+    font-weight: 600;
+    padding: 15px 32px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    margin: 30px auto;
+    background-color: white;
+    color: black;
+}
+
+.orderButton {
+    border: 2px solid #4CAF50;
+    transition: 0.1s all;
+}
+
+.orderButton:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.orderButton:active {
+    background-color: #bdffbf;
+    transform: scale(0.98);
+}
+
+.refreshButton {
+    border: 2px solid orange;
+    transition: 0.1s all;
+}
+
+.refreshButton:hover {
+    background-color: orange;
+    color: white;
+}
+
+.refreshButton:active {
+    background-color: rgb(255, 216, 143);
+    transform: scale(0.98);
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.menuItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.orderText {
+    margin-bottom: 10px;
+}
+
+.orderContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.orders {
+    border-collapse: collapse;
+    width: 80vw;
+    max-width: 800px;
+}
+
+.th, .td {
+    border: 1px solid #ddd;
+    padding: 5px 8px;
+}
+
+.tr:nth-child(even) { background-color: #f2f2f2; }
+
+.tr:hover { background-color: #ddd; }
+
+.th {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
